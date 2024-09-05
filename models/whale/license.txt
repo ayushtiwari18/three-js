@@ -1,0 +1,11 @@
+Model Information:
+* title:	Whale
+* source:	https://sketchfab.com/3d-models/whale-ec0a606dca224614a878052f715f709d
+* author:	nataliedesign (https://sketchfab.com/nataliedesign)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Whale" (https://sketchfab.com/3d-models/whale-ec0a606dca224614a878052f715f709d) by nataliedesign (https://sketchfab.com/nataliedesign) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

@@ -1,0 +1,11 @@
+Model Information:
+* title:	Blue whale
+* source:	https://sketchfab.com/3d-models/blue-whale-98f39ec637474e5fae8c4fc38869ea44
+* author:	misaooo (https://sketchfab.com/misaooo)
+
+Model License:
+* license type:	CC-BY-NC-4.0 (http://creativecommons.org/licenses/by-nc/4.0/)
+* requirements:	Author must be credited. No commercial use.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Blue whale" (https://sketchfab.com/3d-models/blue-whale-98f39ec637474e5fae8c4fc38869ea44) by misaooo (https://sketchfab.com/misaooo) licensed under CC-BY-NC-4.0 (http://creativecommons.org/licenses/by-nc/4.0/)

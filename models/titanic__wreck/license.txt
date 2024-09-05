@@ -1,0 +1,11 @@
+Model Information:
+* title:	Titanic_ Wreck
+* source:	https://sketchfab.com/3d-models/titanic--wreck-1e1d0361713642d6b2eaea8a964c2146
+* author:	KING BLOOP BOI (https://sketchfab.com/minipuft123)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Titanic_ Wreck" (https://sketchfab.com/3d-models/titanic--wreck-1e1d0361713642d6b2eaea8a964c2146) by KING BLOOP BOI (https://sketchfab.com/minipuft123) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

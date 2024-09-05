@@ -1,0 +1,11 @@
+Model Information:
+* title:	Realistic White Shark
+* source:	https://sketchfab.com/3d-models/realistic-white-shark-f2dc1264b43446369fbcad58e58b30ed
+* author:	Sealife Fan 3 (https://sketchfab.com/SealifeFan3)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Realistic White Shark" (https://sketchfab.com/3d-models/realistic-white-shark-f2dc1264b43446369fbcad58e58b30ed) by Sealife Fan 3 (https://sketchfab.com/SealifeFan3) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

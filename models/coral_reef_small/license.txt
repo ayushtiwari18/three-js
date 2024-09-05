@@ -1,0 +1,11 @@
+Model Information:
+* title:	Coral reef small
+* source:	https://sketchfab.com/3d-models/coral-reef-small-90b0429f22bc4df7b7e05ed827e7ea80
+* author:	Miguelangelo Rosario (https://sketchfab.com/miguelangelo2k)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Coral reef small" (https://sketchfab.com/3d-models/coral-reef-small-90b0429f22bc4df7b7e05ed827e7ea80) by Miguelangelo Rosario (https://sketchfab.com/miguelangelo2k) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

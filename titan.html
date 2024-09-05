@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D Titanic Dive - Deep Ocean Exploration</title>
+    <style>
+        body {
+            margin: 0;
+            overflow: hidden;
+            font-family: Arial, sans-serif;
+        }
+        canvas {
+            display: block;
+        }
+        #info {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            color: white;
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 10px;
+            border-radius: 5px;
+        }
+        #lets-go-button {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            padding: 15px 30px;
+            font-size: 20px;
+            cursor: pointer;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        #lets-go-button:hover {
+            background-color: #45a049;
+        }
+        #read-info-button {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            background-color: #008CBA;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+            display: none;
+        }
+        #read-info-button:hover {
+            background-color: #007B9A;
+        }
+        
+        #flash-card {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: rgba(0, 0, 0, 0.8);
+            color: white;
+            padding: 20px;
+            border-radius: 10px;
+            display: none;
+            max-width: 80%;
+            max-height: 80%;
+            overflow-y: auto;
+        }
+        #flash-card .close-button {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            background: none;
+            border: none;
+            color: white;
+            font-size: 20px;
+            cursor: pointer;
+        }
+        #oxygen-bar {
+            position: absolute;
+            bottom: 10px;
+            left: 10px;
+            width: 200px;
+            height: 20px;
+            background-color: rgba(0, 0, 0, 0.5);
+            border-radius: 10px;
+            overflow: hidden;
+        }
+        #oxygen-level {
+            width: 100%;
+            height: 100%;
+            background-color: #00ff00;
+            transition: width 0.5s;
+        }
+        #game-over {
+            position: absolute;
+            top: 40%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 48px;
+            color: red;
+            text-shadow: 2px 2px 4px #000000;
+            display: none;
+        }
+        #dive-again-button {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            padding: 15px 30px;
+            font-size: 20px;
+            cursor: pointer;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+            display: none;
+        }
+        #dive-again-button:hover {
+            background-color: #45a049;
+        }
+        #implosion-text {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 48px;
+            color: red;
+            text-shadow: 2px 2px 4px #000000;
+            display: none;
+        }
+        #oxygen-label {
+            position: absolute;
+            bottom: 35px;
+            left: 10px;
+            color: white;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <div id="info">
+        Use Arrow keys to move, Space to descend, Tab to ascend<br>
+        Scroll to move up/down, Mouse drag to rotate camera<br>
+        Depth: <span id="depth">0</span> m
+    </div>
+    <button id="lets-go-button">Let's Go</button>
+    <div id="flash-card"></div>
+    <button id="read-info-button">Read Info</button>
+    <button id="dive-again-button">Dive Again</button>
+    <div id="implosion-text">Submarine Imploded!</div>
+    <div id="oxygen-label">Oxygen Levels</div>
+    <div id="oxygen-bar"><div id="oxygen-level"></div></div>
+    <button id="returnToMapButton" style=" position: absolute;
+    top: 10px;
+    right: 150px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #008CBA;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;">Return to Map</button>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/dat-gui/0.7.7/dat.gui.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/loaders/GLTFLoader.js"></script>
+    <script src="titan.js"></script>
+</body>
+</html>

@@ -1,0 +1,11 @@
+Model Information:
+* title:	Goldfish/ crucian carp
+* source:	https://sketchfab.com/3d-models/goldfish-crucian-carp-d68d50e2a5e54ec8ac8634ada064417d
+* author:	Usagijin (https://sketchfab.com/usagijin)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Goldfish/ crucian carp" (https://sketchfab.com/3d-models/goldfish-crucian-carp-d68d50e2a5e54ec8ac8634ada064417d) by Usagijin (https://sketchfab.com/usagijin) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
