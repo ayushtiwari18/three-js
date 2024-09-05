@@ -177,9 +177,9 @@ function loadModels() {
   );
 
   loadModel("models/coral/scene.gltf", onModelLoad, "Coral");
-  loadModel("models/shark/scene.gltf", onModelLoad, "Shark");
+  //   loadModel("models/shark/scene.gltf", onModelLoad, "Shark");
   loadModel("models/whale/scene.gltf", onModelLoad, "Whale");
-  loadModel("models/fish/scene.gltf", onModelLoad, "Fish");
+  //   loadModel("models/fish/scene.gltf", onModelLoad, "Fish");
 }
 
 function addCorals() {
@@ -203,29 +203,28 @@ function addCorals() {
 }
 
 function addSharks() {
-  loader.load("models/shark/scene.gltf", (gltf) => {
-    const sharkModel = gltf.scene;
-    for (let i = 0; i < 600; i++) {
-      const shark = sharkModel.clone();
-      shark.scale.set(0.5, 0.5, 0.5);
-      shark.position.set(
-        Math.random() * 8000 - 4000,
-        Math.random() * (MIN_DEPTH - MAX_DEPTH) + MAX_DEPTH,
-        Math.random() * 8000 - 4000
-      );
-      scene.add(shark);
-      marineLife.push({
-        model: shark,
-        speed: 1,
-        rotationSpeed: Math.random() * 0.02 - 0.01,
-        yRange: [MAX_DEPTH, MIN_DEPTH],
-      });
-
-      // Add point light to shark
-      const light = new THREE.PointLight(0xffffff, 0.5, 50);
-      shark.add(light);
-    }
-  });
+  //   loader.load("models/shark/scene.gltf", (gltf) => {
+  //     const sharkModel = gltf.scene;
+  //     for (let i = 0; i < 600; i++) {
+  //       const shark = sharkModel.clone();
+  //       shark.scale.set(0.5, 0.5, 0.5);
+  //       shark.position.set(
+  //         Math.random() * 8000 - 4000,
+  //         Math.random() * (MIN_DEPTH - MAX_DEPTH) + MAX_DEPTH,
+  //         Math.random() * 8000 - 4000
+  //       );
+  //       scene.add(shark);
+  //       marineLife.push({
+  //         model: shark,
+  //         speed: 1,
+  //         rotationSpeed: Math.random() * 0.02 - 0.01,
+  //         yRange: [MAX_DEPTH, MIN_DEPTH],
+  //       });
+  //       // Add point light to shark
+  //       const light = new THREE.PointLight(0xffffff, 0.5, 50);
+  //       shark.add(light);
+  //     }
+  //   });
 }
 
 function addWhales() {
@@ -255,38 +254,37 @@ function addWhales() {
 }
 
 function addFishSchools() {
-  loader.load("models/fish/scene.gltf", (gltf) => {
-    const fishModel = gltf.scene;
-    for (let i = 0; i < 500; i++) {
-      const school = new THREE.Group();
-      for (let j = 0; j < 100; j++) {
-        const fish = fishModel.clone();
-        fish.scale.set(1, 1, 1);
-        fish.position.set(
-          Math.random() * 100 - 50,
-          Math.random() * 100 - 50,
-          Math.random() * 100 - 50
-        );
-        school.add(fish);
-      }
-      school.position.set(
-        Math.random() * 8000 - 4000,
-        Math.random() * (MIN_DEPTH - MAX_DEPTH) + MAX_DEPTH,
-        Math.random() * 8000 - 4000
-      );
-      scene.add(school);
-      marineLife.push({
-        model: school,
-        speed: 2,
-        rotationSpeed: Math.random() * 0.02 - 0.01,
-        yRange: [MAX_DEPTH, MIN_DEPTH],
-      });
-
-      // Add point light to school
-      const light = new THREE.PointLight(0xffffff, 0.5, 100);
-      school.add(light);
-    }
-  });
+  //   loader.load("models/fish/scene.gltf", (gltf) => {
+  //     const fishModel = gltf.scene;
+  //     for (let i = 0; i < 500; i++) {
+  //       const school = new THREE.Group();
+  //       for (let j = 0; j < 100; j++) {
+  //         const fish = fishModel.clone();
+  //         fish.scale.set(1, 1, 1);
+  //         fish.position.set(
+  //           Math.random() * 100 - 50,
+  //           Math.random() * 100 - 50,
+  //           Math.random() * 100 - 50
+  //         );
+  //         school.add(fish);
+  //       }
+  //       school.position.set(
+  //         Math.random() * 8000 - 4000,
+  //         Math.random() * (MIN_DEPTH - MAX_DEPTH) + MAX_DEPTH,
+  //         Math.random() * 8000 - 4000
+  //       );
+  //       scene.add(school);
+  //       marineLife.push({
+  //         model: school,
+  //         speed: 2,
+  //         rotationSpeed: Math.random() * 0.02 - 0.01,
+  //         yRange: [MAX_DEPTH, MIN_DEPTH],
+  //       });
+  //       // Add point light to school
+  //       const light = new THREE.PointLight(0xffffff, 0.5, 100);
+  //       school.add(light);
+  // }
+  //   });
 }
 
 function addSpotlightsToSubmarine() {
